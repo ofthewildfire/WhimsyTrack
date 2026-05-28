@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'index')->name('index');
 Route::view('/add', 'add')->name('add-goblin');
 Route::post('/add', [SightingController::class, 'store']);
+Route::get('/sighting/{sighting}', [SightingController::class, 'view']);
 
 // Route::middleware(['auth', 'verified'])->group(function () {
 //    Route::view('dashboard', 'dashboard')->name('dashboard');

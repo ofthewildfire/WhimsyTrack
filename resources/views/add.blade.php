@@ -4,35 +4,36 @@
     <div>
         <label for="location">Location</label>
         <select name="location" id="location">
-            <option value="cathedral_level_1">Cathedral Level 1</option>
-            <option value="cathedral_level_2">Cathedral Level 2</option>
-            <option value="cathedral_level_3">Cathedral Level 3</option>
-            <option value="leorics_passage">Leoric's Passage</option>
-            <option value="leorics_hunting_grounds">Leoric's hunting grounds</option>
-            <option value="northern_highlands">Northern Highlands</option>
-            <option value="royal_crypts">Royal Crypts</option>
-            <option value="southern_highlands">Southern Highlands</option>
-            <option value="cave_of_the_moon_clan">Cave of the Moon Clan Level 1 and 2</option>
+            <option value="Cathedral Level 1">Cathedral Level 1</option>
+            <option value="Cathedral Level 2">Cathedral Level 2</option>
+            <option value="Cathedral Level 3">Cathedral Level 3</option>
+            <option value="Leoric's Passage">Leoric's Passage</option>
+            <option value="Leoric's Hunting Grounds">Leoric's Hunting Grounds</option>
+            <option value="Northern Highlands">Northern Highlands</option>
+            <option value="Royal Crypts">Royal Crypts</option>
+            <option value="Southern Highlands">Southern Highlands</option>
+            <option value="Cave of the Moon Clan Level 1">Cave of the Moon Clan Level 1</option>
+            <option value="Cave of the Moon Clan Level 2">Cave of the Moon Clan Level 2</option>
         </select>
     </div>
     <br>
     <div>
         <label for="goblin">Goblin Found</label>
         <select name="goblin" id="goblin">
-            <option value="treasure">Treasure Goblin</option>
-            <option value="blood">Blood Thief</option>
-            <option value="odious">Odious Collector</option>
-            <option value="gem">Gem Hoarder</option>
-            <option value="malevolent">Malevolent Tormentor</option>
-            <option value="rainbow">Rainbow Goblin</option>
-            <option value="menagerist">Menagerist Goblin</option>
-            <option value="gilded">Gilded Baron</option>
-            <option value="insufferable">Insufferable Miscreant</option>
-            <option value="gelatinous">Gelatinous Sire</option>
+            <option value="Treasure Goblin">Treasure Goblin</option>
+            <option value="Blood Thief">Blood Thief</option>
+            <option value="Odious Collector">Odious Collector</option>
+            <option value="Gem Hoarder">Gem Hoarder</option>
+            <option value="Malevolent Tormentor">Malevolent Tormentor</option>
+            <option value="Rainbow Goblin">Rainbow Goblin</option>
+            <option value="Menagerist Goblin">Menagerist Goblin</option>
+            <option value="Gilded Baron">Gilded Baron</option>
+            <option value="Insufferable Miscreant">Insufferable Miscreant</option>
+            <option value="Gelatinous Sire">Gelatinous Sire</option>
         </select>
     </div>
     <br>
     <div>
-        <button>Add sighting xd</button>
+        <button>Add Sighting 🧚</button>
     </div>
 </form>

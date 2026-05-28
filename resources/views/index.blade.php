@@ -24,6 +24,9 @@
                 <h1>Rainbow Goblin Farming Tracker</h1>
                 <p>Seriously because we all want those freaking wings.</p>
             </main>
+            <div>
+                <livewire:sightings />
+            </div>
         </div>
 
         @if (Route::has('login'))
