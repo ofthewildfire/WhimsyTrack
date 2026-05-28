@@ -15,7 +15,7 @@ new class extends Component {
 
 <div>
     @foreach($sightings as $sighting)
-        <a href="/sighting/{{$sighting->id}}">
+        <a style="color: purple; font-weight: 700; text-decoration: underline;" href="/sighting/{{$sighting->id}}">
             <li>{{$sighting->location}}</li>
         </a>
     @endforeach
