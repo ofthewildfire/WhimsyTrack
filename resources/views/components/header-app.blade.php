@@ -2,7 +2,7 @@
 
     @if (Route::has('login'))
         <nav class="flex items-center justify-end gap-4">
-            <a href="/add">Home</a>
+            <a href="/">Home</a>
             <a href="/add">Add</a>
             @auth
                 <a
