@@ -28,7 +28,7 @@ $counts = Sighting::select(Sighting::raw('COUNT(goblin) as goblin_total'), 'gobl
 
 
     @foreach($sightings as $sighting)
-        <a style="color: purple; font-weight: 700; text-decoration: underline;" href="/sighting/{{$sighting->id}}">
+        <a style="color: purple; font-weight: 700; text-decoration: underline 2px solid green;" href="/sighting/{{$sighting->id}}">
             <li>{{$sighting->location}}</li>
         </a>
     @endforeach
