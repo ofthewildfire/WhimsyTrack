@@ -7,9 +7,7 @@ Route::view('/', 'index')->name('index');
 Route::view('/add', 'add')->name('add-goblin');
 Route::post('/add', [SightingController::class, 'store']);
 Route::get('/sighting/{sighting}', [SightingController::class, 'view']);
-
-// Route::middleware(['auth', 'verified'])->group(function () {
-//    Route::view('dashboard', 'dashboard')->name('dashboard');
-// });
-
-require __DIR__.'/settings.php';
+Route::get('/sighting/{sighting}/edit', [SightingController::class, 'edit']);
+Route::patch('/sighting/{sighting}/update', [SightingController::class, 'update']);
+Route::delete('/sighting/{sighting}/delete', [SightingController::class, 'destroy']);
+require __DIR__.'/auth.php';

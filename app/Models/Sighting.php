@@ -9,6 +9,5 @@ class Sighting extends Model
 {
     /** @use HasFactory<\Database\Factories\SightingFactory> */
     use HasFactory;
-
     protected $guarded = ['id'];
 }

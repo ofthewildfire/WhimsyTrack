@@ -12,7 +12,7 @@ $counts = Sighting::select(Sighting::raw('COUNT(goblin) as goblin_total'), 'gobl
     ->get();
 
         return [
-            'sightings' => Sighting::all(),
+            'sightings' => Sighting::simplePaginate(2),
             'counts' => $counts
         ];
   }
@@ -32,4 +32,7 @@ $counts = Sighting::select(Sighting::raw('COUNT(goblin) as goblin_total'), 'gobl
             <li>{{$sighting->location}}</li>
         </a>
     @endforeach
+
+    <br>
+    {{ $sightings->links() }}
 </div>
