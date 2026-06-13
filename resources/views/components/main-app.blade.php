@@ -18,10 +18,10 @@
     <style>
 
         body {
-            font-size: 1.75rem;
+            font-size: 1.5rem;
         }
         a:hover {
-            text-docoration: underline 2px orange;
+            text-decoration: underline 2px orange;
         }
 
         h1, h2, h3, h4, h5, h6 {

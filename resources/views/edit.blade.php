@@ -5,7 +5,7 @@
     <div>
         <label for="location">Location</label>
         <select name="location" id="location">
-            <option value="{{$sighting->location}} selected"> {{$sighting->location}} </option>
+            <option value="{{$sighting->location}}" selected> {{$sighting->location}} </option>
             <option value="Cathedral Level 1">Cathedral Level 1</option>
             <option value="Cathedral Level 2">Cathedral Level 2</option>
             <option value="Cathedral Level 3">Cathedral Level 3</option>
@@ -22,7 +22,7 @@
     <div>
         <label for="goblin">Goblin Found</label>
         <select name="goblin" id="goblin">
-            <option value="{{$sighting->goblin}} selected"> {{$sighting->goblin}} </option>
+            <option value="{{$sighting->goblin}}" selected> {{$sighting->goblin}} </option>
             <option value="Treasure Goblin">Treasure Goblin</option>
             <option value="Blood Thief">Blood Thief</option>
             <option value="Odious Collector">Odious Collector</option>
