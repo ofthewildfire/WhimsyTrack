@@ -1,0 +1,1 @@
+This project was made as a tracker for D3 Goblin Farming: I got the wings the day I made the Create record and started adding them the very same day. I think I made it happen haha, this uses Laravel and one single Livewire component to test it out where I call the DB right on the Blade component page.
